@@ -1,0 +1,42 @@
+package org.selfservice.utils;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.selfservice.bean.Order;
+
+public class OrderIO {
+	private static List<Order> orders=new ArrayList<>();
+	private static final String ORDER_FILE="order.obj";
+	
+	public void add(Order order) throws BusinessException{
+		
+	}
+	
+	public List<Order> list() throws BusinessException{
+		return null;
+	}
+	
+	public Order findByOrderId(int orderId) throws BusinessException{
+		return null;
+	} 
+	
+	public void writeOrder(){
+		try{
+			ObjectOutputStream out=new ObjectOutputStream(
+					new FileOutputStream(ORDER_FILE));
+			out.writeObject(orders);
+			out.close();
+		}catch(IOException e){
+			
+		}
+	}
+	
+	public void readOrder(){
+		
+	}
+	
+}
