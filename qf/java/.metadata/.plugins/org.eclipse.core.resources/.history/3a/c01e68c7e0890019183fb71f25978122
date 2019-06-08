@@ -1,0 +1,5 @@
+package org.selfservice.ui;
+
+public abstract class BaseClass {
+
+}

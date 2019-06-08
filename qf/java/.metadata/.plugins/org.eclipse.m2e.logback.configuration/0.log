@@ -1,0 +1,31 @@
+2019-06-08 12:33:34,468 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-08 12:35:44,886 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qf.java:clothes:0.0.1-SNAPSHOT @ D:\git_repo\2019summer\qf\java\clothes\pom.xml.
+2019-06-08 12:35:46,013 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /clothes/src/main/java
+2019-06-08 12:35:46,015 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /clothes/src/main/resources
+2019-06-08 12:35:46,017 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /clothes/src/test/java
+2019-06-08 12:35:46,024 [Worker-6] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /clothes/src/test/resources
+2019-06-08 12:35:51,422 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-08 12:35:51,438 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-08 12:35:51,441 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-06-08 12:35:51,468 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-06-08 12:37:01,009 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\git_repo\2019summer\qf\java\clothes\pom.xml
+2019-06-08 12:37:01,659 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qf.java:clothes:0.0.1-SNAPSHOT @ D:\git_repo\2019summer\qf\java\clothes\pom.xml.
+2019-06-08 12:37:01,927 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /clothes/src/main/java
+2019-06-08 12:37:01,944 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /clothes/src/test/java
+2019-06-08 12:37:02,007 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2019-06-08 12:37:02,578 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-08 12:37:02,578 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_repo\2019summer\qf\java\clothes\src\main\resources
+2019-06-08 12:37:02,580 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-08 12:37:02,580 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_repo\2019summer\qf\java\clothes\src\test\resources
+2019-06-08 12:37:54,340 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-08 12:37:54,340 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_repo\2019summer\qf\java\clothes\src\main\resources
+2019-06-08 12:37:54,342 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-08 12:37:54,342 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_repo\2019summer\qf\java\clothes\src\test\resources
+2019-06-08 12:37:55,376 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-08 12:37:55,377 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_repo\2019summer\qf\java\clothes\src\main\resources
+2019-06-08 12:37:55,383 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-08 12:37:55,385 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_repo\2019summer\qf\java\clothes\src\test\resources
+2019-06-08 12:38:01,406 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-08 12:38:01,407 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_repo\2019summer\qf\java\clothes\src\main\resources
+2019-06-08 12:38:01,408 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-06-08 12:38:01,408 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\git_repo\2019summer\qf\java\clothes\src\test\resources

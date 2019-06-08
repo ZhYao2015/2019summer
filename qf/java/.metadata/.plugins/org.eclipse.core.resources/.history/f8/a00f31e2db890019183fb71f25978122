@@ -1,0 +1,5 @@
+package org.selfservice.bean;
+
+public class Order {
+
+}
