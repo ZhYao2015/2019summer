@@ -1,0 +1,24 @@
+package org.selfservice.ui;
+
+import org.selfservice.utils.ConsoleTable;
+
+public class HomeClass extends BaseClass{
+	
+	public void show(){
+		showProducts();
+	}
+	
+	private void showProducts(){
+		
+		ConsoleTable t=new ConsoleTable(8,true);
+		t.appendRow();
+		t.appendColum("id")
+		.appendColum("brand")
+		.appendColum("style")
+		.appendColum("color")
+		.appendColum("size")
+		.appendColum("num")
+		.appendColum("price")
+		.appendColum("description");
+	}
+}

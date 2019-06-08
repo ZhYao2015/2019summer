@@ -1,0 +1,13 @@
+package org.selfservice.utils;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.selfservice.bean.Clothes;
+
+public class ProductsXmlUtils {
+	public static List<Clothes> parserProductFromXml(){
+		List<Clothes> products=new ArrayList<>();
+		
+	}
+}
