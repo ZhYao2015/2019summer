@@ -25,6 +25,7 @@ INDEX VERSION 1.130+D:\git_repo\2019summer\qf\java_singleton\.metadata\.plugins\
 387286445.index
 1973787389.index
 2812201073.index
+3142131529.index
 2709225165.index
 2706902502.index
 616677251.index

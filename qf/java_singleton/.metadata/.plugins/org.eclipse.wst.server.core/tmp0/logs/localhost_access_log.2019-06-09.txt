@@ -7,3 +7,17 @@
 0:0:0:0:0:0:0:1 - - [09/Jun/2019:22:36:07 +0200] "GET /myshop HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [09/Jun/2019:22:36:07 +0200] "GET /myshop/ HTTP/1.1" 200 3713
 0:0:0:0:0:0:0:1 - - [09/Jun/2019:22:36:16 +0200] "POST /myshop/Login HTTP/1.1" 200 3713
+127.0.0.1 - - [09/Jun/2019:23:02:45 +0200] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:46 +0200] "GET /myshop/ HTTP/1.1" 200 3713
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:46 +0200] "GET /myshop/assets/bower_components/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 200 121462
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:46 +0200] "GET /myshop/assets/bower_components/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31004
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:46 +0200] "GET /myshop/assets/bower_components/Ionicons/css/ionicons.min.css HTTP/1.1" 200 51295
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:46 +0200] "GET /myshop/assets/css/AdminLTE.min.css HTTP/1.1" 200 91507
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:46 +0200] "GET /myshop/assets/plugins/iCheck/square/blue.css HTTP/1.1" 200 1672
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:47 +0200] "GET /myshop/assets/bower_components/jquery/dist/jquery.min.js HTTP/1.1" 200 86929
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:47 +0200] "GET /myshop/assets/bower_components/bootstrap/dist/js/bootstrap.min.js HTTP/1.1" 200 39685
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:47 +0200] "GET /myshop/assets/plugins/iCheck/icheck.min.js HTTP/1.1" 200 4526
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:47 +0200] "GET /myshop/assets/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot? HTTP/1.1" 200 20127
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:47 +0200] "GET /myshop/assets/bower_components/font-awesome/fonts/fontawesome-webfont.eot? HTTP/1.1" 200 165742
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:47 +0200] "GET /myshop/assets/plugins/iCheck/square/blue.png HTTP/1.1" 200 2185
+0:0:0:0:0:0:0:1 - - [09/Jun/2019:23:02:53 +0200] "GET /myshop/Login HTTP/1.1" 200 -

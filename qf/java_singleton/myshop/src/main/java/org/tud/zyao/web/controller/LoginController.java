@@ -13,13 +13,14 @@ import org.tud.zyao.service.UserService;
 
 public class LoginController extends HttpServlet {
 
-	
+	private UserService userService;
 	
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		
+		userService=(UserService) SpringContext.getBean("userService");
+		userService.SayHi();
 
 	}
 

@@ -16,4 +16,9 @@ public class UserServiceImpl implements UserService{
 		return userDao.getUser(email, password);
 	}
 
+	public void SayHi() {
+		// TODO Auto-generated method stub
+		System.out.println("Hi!!!!!");
+	}
+
 }

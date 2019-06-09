@@ -14,6 +14,7 @@ xsi:schemaLocation="
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
        
+     <bean id="springContext" class="org.tud.zyao.commons.context.SpringContext"></bean>  
      <bean id="userDao" class="org.tud.zyao.dao.impl.UserDaoImpl"></bean>
 	 <bean id="userService" class="org.tud.zyao.service.impl.UserServiceImpl"></bean>
 </beans>
