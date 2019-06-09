@@ -1,0 +1,9 @@
+package org.tud.zyao.dao;
+
+import org.tud.zyao.entity.User;
+
+
+public interface UserDao {
+	public User getUser(String email,String password);
+	
+}

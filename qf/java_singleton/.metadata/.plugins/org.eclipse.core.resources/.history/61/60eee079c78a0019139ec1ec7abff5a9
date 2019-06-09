@@ -1,0 +1,14 @@
+package org.tud.zyao.service.impl;
+
+import org.tud.zyao.entity.User;
+import org.tud.zyao.service.UserService;
+
+public class UserServiceImpl implements UserService{
+
+	public User login(String email, String password) {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
+
+}

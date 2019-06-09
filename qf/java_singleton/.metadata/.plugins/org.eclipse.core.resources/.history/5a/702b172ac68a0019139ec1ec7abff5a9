@@ -1,0 +1,5 @@
+package org.tud.zyao.service;
+
+public interface UserService {
+
+}

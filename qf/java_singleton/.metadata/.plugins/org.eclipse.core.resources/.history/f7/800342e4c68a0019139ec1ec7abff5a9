@@ -1,0 +1,5 @@
+package org.tud.zyao.commons.context;
+
+public class SpringContext {
+
+}

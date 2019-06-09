@@ -35,7 +35,6 @@ INDEX VERSION 1.3+D:\git_repo\2019summer\qf\java_singleton\.metadata\.plugins\or
 1315448618.index
 2331226885.index
 1084184280.index
-3030339897.index
 3440329768.index
 2923512776.index
 1693007525.index
@@ -52,7 +51,6 @@ INDEX VERSION 1.3+D:\git_repo\2019summer\qf\java_singleton\.metadata\.plugins\or
 64752856.index
 3886846161.index
 2990639908.index
-1309828669.index
 1460202954.index
 2316423127.index
 1704327212.index

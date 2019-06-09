@@ -1,0 +1,47 @@
+package org.tud.zyao.web.controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+import org.tud.zyao.commons.context.SpringContext;
+import org.tud.zyao.entity.User;
+import org.tud.zyao.service.UserService;
+
+public class LoginController extends HttpServlet {
+
+	
+	
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String email=req.getParameter("email");
+		String password=req.getParameter("password");
+		
+		SpringContext context=new SpringContext();
+		UserService userService=(UserService)context.getBean("userService");
+
+		User admin=userService.login(email, password);
+		
+		if(admin!=null){
+			resp.sendRedirect("/main.jsp");
+		}
+		//...
+		else{
+			req.getRequestDispatcher("/index.jsp").forward(req, resp);
+		}
+	}
+
+}
