@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.ResourceBundle"/>
+<fullyQualifiedTypeName name="org.selfservice.ui.WelcomeClass"/>
+<fullyQualifiedTypeName name="org.selfservice.service.UserService"/>
+<fullyQualifiedTypeName name="org.selfservice.utils.UserIO"/>
+<fullyQualifiedTypeName name="org.selfservice.utils.EmptyUtils"/>
+<fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.selfservice.service.ClothesService"/>
+<fullyQualifiedTypeName name="org.selfservice.utils.ProductsXmlUtils"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
+<fullyQualifiedTypeName name="org.selfservice.bean.OrderItem"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.selfservice.bean.Clothes"/>
+<fullyQualifiedTypeName name="org.selfservice.utils.DataUtils"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.selfservice.utils.ClothesIO"/>
+</qualifiedTypeNameHistroy>

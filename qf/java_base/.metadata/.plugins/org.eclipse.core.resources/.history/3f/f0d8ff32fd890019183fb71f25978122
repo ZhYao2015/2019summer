@@ -1,0 +1,8 @@
+package org.selfservice.ui;
+
+public class HomeClass extends BaseClass{
+	
+	public void show(){
+		
+	}
+}

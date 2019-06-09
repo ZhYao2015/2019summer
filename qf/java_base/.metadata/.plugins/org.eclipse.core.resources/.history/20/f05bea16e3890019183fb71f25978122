@@ -1,0 +1,8 @@
+package org.selfservice.ui;
+
+public class WelcomeClass extends BaseClass{
+	public void start(){
+		println(getString("info.welcome"));
+		
+	}
+}

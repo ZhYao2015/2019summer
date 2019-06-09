@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<clothes id="A001">
+		<brand>VEROMODA</brand>
+		<style>Skirt</style>
+		<color>White</color>
+		<size>S</size>
+		<num>4</num>
+		<price>27.4</price>
+		<description>skirts for summer</description>
+	</clothes>
+	<clothes id="A002">
+		<brand>GAP</brand>
+		<style>Skirt</style>
+		<color>BlackAndWhite</color>
+		<size>S</size>
+		<num>19</num>
+		<price>16.4</price>
+		<description>skirts for summer fashion</description>
+	</clothes>
+	<clothes id="A003">
+		<brand>Pomodoro</brand>
+		<style>T-Shirt</style>
+		<color>Red</color>
+		<size>XL</size>
+		<num>3</num>
+		<price>25.0</price>
+		<description>T-shirts italiano</description>
+	</clothes>
+	
+</list>
