@@ -1,5 +1,0 @@
-package org.selfservice.utils;
-
-public enum OrderStatusType {
-
-}

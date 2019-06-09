@@ -1,8 +1,0 @@
-package org.selfservice.ui;
-
-public class RegisterClass extends BaseClass {
-	
-	public void register(){
-		
-	}
-}

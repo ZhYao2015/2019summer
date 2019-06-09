@@ -1,5 +1,0 @@
-package org.selfservice.service.impl;
-
-public class UserServiceImpl {
-
-}

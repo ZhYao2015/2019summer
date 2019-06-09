@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="ProductsXmlUtilsTest" project="selfservice" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="org.selfservice.ProductsXmlUtilsTest" time="0.207">
-    <testcase name="test" classname="org.selfservice.ProductsXmlUtilsTest" time="0.207"/>
-  </testsuite>
-</testrun>
