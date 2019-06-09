@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\git_repo\2019summer\qf\java_base"/>
 			<item value="D:\git_repo\2019summer\qf\temp"/>
 		</list>
 		<list key="projectNameTemplate">
