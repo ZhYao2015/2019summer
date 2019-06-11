@@ -1,0 +1,55 @@
+package org.tud.zyao.web.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class LoginController{
+	/**
+	 * If you search for a path of 'login' with the GET method, then
+	 * this login() method will be invoked.
+	 * @return
+	 */
+	@RequestMapping(value="login", method=RequestMethod.GET)
+	public String login(){
+		
+	}
+	
+}	
+	
+	
+	
+	
+	
+//	private UserService userService;
+//	
+//	
+//	@Override
+//	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//		// TODO Auto-generated method stub
+//		userService=(UserService) SpringContext.getBean("userService");
+//		userService.SayHi();
+//
+//	}
+//
+//	@Override
+//	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//		// TODO Auto-generated method stub
+//		String email=req.getParameter("email");
+//		String password=req.getParameter("password");
+//
+//		SpringContext context=new SpringContext();
+//		UserService userService=(UserService)context.getBean("userService");
+//
+//		User uAdmin=userService.login(email, password);
+//		
+//		if(uAdmin!=null){
+//			resp.sendRedirect("main.jsp");
+//		}
+//		//...
+//		else{
+//			req.getRequestDispatcher("index.jsp").forward(req, resp);
+//		}
+//	}
+

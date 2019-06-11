@@ -1,0 +1,5 @@
+package org.tud.zyao.web.interceptor;
+
+public class PermissionInterceptor {
+
+}
