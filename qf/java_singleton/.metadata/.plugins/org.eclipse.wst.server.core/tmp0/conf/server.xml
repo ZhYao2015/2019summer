@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="D:\git_repo\2019summer\qf\java_singleton\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\git_repo\2019summer\qf\java_singleton\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\myshop" path="/myshop" reloadable="true" source="org.eclipse.jst.jee.server:myshop"/></Host>
+      <Context docBase="D:\git_repo\2019summer\qf\java_singleton\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\git_repo\2019summer\qf\java_singleton\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\myshop" path="/myshop" reloadable="true" source="org.eclipse.jst.jee.server:myshop"/><Context docBase="D:\git_repo\2019summer\qf\java_singleton\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\myshop-web-admin" path="/myshop-web-admin" reloadable="true" source="org.eclipse.jst.jee.server:myshop-web-admin"/></Host>
     </Engine>
   </Service>
 </Server>

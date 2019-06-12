@@ -1,0 +1,5 @@
+package org.tud.zyao.myshop.web.admin.dao.impl;
+
+public class UserDaoImpl {
+
+}

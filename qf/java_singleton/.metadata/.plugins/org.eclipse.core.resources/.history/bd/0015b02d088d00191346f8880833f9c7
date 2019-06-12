@@ -1,0 +1,25 @@
+package org.tud.zyao.myshop.web.admin.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.tud.zyao.myshop.domain.User;
+import org.tud.zyao.myshop.web.admin.dao.UserDao;
+import org.tud.zyao.myshop.web.admin.service.UserService;
+
+@Service(value="userService")
+public class UserServiceImpl implements UserService{
+
+	@Autowired
+	private UserDao userDao;
+	
+	public User login(String email, String password) {
+		// TODO Auto-generated method stub
+		return userDao.getUser(email, password);
+	}
+
+	public void SayHi() {
+		// TODO Auto-generated method stub
+		System.out.println("Hi!!!!!");
+	}
+
+}

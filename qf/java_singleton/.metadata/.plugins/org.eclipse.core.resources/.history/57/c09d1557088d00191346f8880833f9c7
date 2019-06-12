@@ -1,0 +1,33 @@
+package org.tud.zyao.myshop.web.admin.dao.impl;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
+import org.tud.zyao.myshop.domain.User;
+
+@Repository
+public class UserDaoImpl {
+	
+private static final Logger logger=LoggerFactory.getLogger(UserDaoImpl.class);
+	
+	public User getUser(String email, String password) {
+		// TODO Auto-generated method stub
+		logger.debug("invoke getUser(),email:{} password:{}",email,password);
+		
+		User user=null;
+		
+		if("zyao2015inf@gmail.com".equals(email)){
+			if("admin".equals(password)){
+				user =new User();
+				user.setEmail("zyao2015inf@gmail.com");
+				user.setUsername("zyao");
+				
+				logger.info("get {} info",user.getUsername());
+			}
+		}else{
+			logger.warn("get user with email {} info failed",email);
+		}
+		
+		return user;
+	}
+}

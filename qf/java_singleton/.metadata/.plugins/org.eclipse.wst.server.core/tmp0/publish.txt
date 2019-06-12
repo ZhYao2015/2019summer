@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Tue Jun 11 22:26:24 CEST 2019
-org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Shigo\\.m2\\repository\\org\\springframework\\spring-web\\4.2.6.RELEASE\\spring-web-4.2.6.RELEASE.jar=WEB-INF/lib/spring-web-4.2.6.RELEASE.jar
+#Wed Jun 12 14:11:57 CEST 2019
+org.eclipse.jst.j2ee.server\:myshop-domain=WEB-INF/lib/myshop-domain-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:myshop-commons=WEB-INF/lib/myshop-commons-0.0.1-SNAPSHOT.jar

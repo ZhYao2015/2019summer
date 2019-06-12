@@ -1,0 +1,5 @@
+package org.tud.zyao.myshop.domain;
+
+public class User {
+
+}
