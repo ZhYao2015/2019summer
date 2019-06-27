@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Information</h1>
+	<form action="/MyServlet/LoginServlet" method="get">
+		<label for="name">username</label> <input type="text" name="username"
+			id="name" /> <br /> <label for="key">password</label> <input
+			type="text" name="password" id="key" /> <br /> <input type="submit"
+			value="submit" /> <br /> 
+			<img src="" 
+			alt="validation code" id="img_code" />
+		<a href="javascript:void(0)" onclick="refreshCode()">Switch</a>
+	</form>
+	
+	<script type="text/javascript">
+		function refreshCode(){
+			//var code=document.getElementById("img_code");
+			//code.src="/MyServlet/CodeServlet?name="+=Math.random();
+		}
+		refreshCode();
+	</script>
+</body>
+</html>
