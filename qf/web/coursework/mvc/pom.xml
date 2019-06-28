@@ -7,9 +7,31 @@
   </parent>
   <artifactId>mvc</artifactId>
   <dependencies>
+  <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
+	<dependency>
+	    <groupId>javax.servlet.jsp</groupId>
+	    <artifactId>javax.servlet.jsp-api</artifactId>
+	</dependency>
   	<dependency>
   		<groupId>javax.servlet</groupId>
   		<artifactId>javax.servlet-api</artifactId>
   	</dependency>
+	<dependency>
+	    <groupId>commons-dbutils</groupId>
+	    <artifactId>commons-dbutils</artifactId>
+	</dependency>
+  	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+	<dependency>
+	    <groupId>com.alibaba</groupId>
+	    <artifactId>druid</artifactId>
+	</dependency>
+	<dependency>
+	    <groupId>jstl</groupId>
+	    <artifactId>jstl</artifactId>
+	</dependency>
   </dependencies>
 </project>
