@@ -10,6 +10,7 @@
   	<module>MyServer</module>
     <module>MyServlet</module>
     <module>mvc</module>
+    <module>transactions</module>
   </modules>
   
   <dependencyManagement>
@@ -56,6 +57,12 @@
 		    <artifactId>javax.servlet.jsp-api</artifactId>
 		    <version>2.3.1</version>
 		    <scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+		<dependency>
+		    <groupId>commons-beanutils</groupId>
+		    <artifactId>commons-beanutils</artifactId>
+		    <version>1.9.3</version>
 		</dependency>
   	</dependencies>	
   </dependencyManagement>

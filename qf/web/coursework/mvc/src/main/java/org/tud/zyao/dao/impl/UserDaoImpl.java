@@ -50,7 +50,16 @@ public class UserDaoImpl implements UserDao{
 	@Override
 	public void update(User user) {
 		// TODO Auto-generated method stub
-		
+		QueryRunner runner=new QueryRunner(DruidUtils.getDataSource());
+		try {
+			runner.update("update user set password=?,email=?,gender=?,flag=?,role=?"
+					+ " where id=?",
+					user.getPassword(),user.getEmail(),user.getGender(),user.getFlag(),
+					user.getRole(),user.getId());
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Override
@@ -58,7 +67,7 @@ public class UserDaoImpl implements UserDao{
 		// TODO Auto-generated method stub
 		QueryRunner runner=new QueryRunner(DruidUtils.getDataSource());
 		try {
-			runner.update("update user set flag=2 where id="+Integer.toString(userId)+";");
+			runner.update("update user set flag=0 where id="+Integer.toString(userId)+";");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

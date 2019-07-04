@@ -33,5 +33,10 @@
 	    <groupId>jstl</groupId>
 	    <artifactId>jstl</artifactId>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+	<dependency>
+	    <groupId>commons-beanutils</groupId>
+	    <artifactId>commons-beanutils</artifactId>
+	</dependency>
   </dependencies>
 </project>

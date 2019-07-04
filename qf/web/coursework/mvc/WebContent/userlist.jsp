@@ -29,10 +29,10 @@
 				<td>${user.password}</td>
 				<td>${user.email}</td>
 				<td>${user.gender}</td>
-				<td>${user.flag==1?"Activated":user.flag==0?"Not":"Disabled"}</td>
-				<td>${user.role==0?"admin":"normal"}</td>
+				<td>${user.flag==1?"Activated":user.flag==2?"Unactivated":"Disabled"}</td>
+				<td>${user.role==0?"Admin":"Normal"}</td>
 				<td>${user.code}</td>
-				<td><a href="#">Update</a>&nbsp;&nbsp;<a href="${pageContext.request.contextPath}/UserDeleteServlet?userid=${user.id}"
+				<td><a href="${pageContext.request.contextPath}/UserServlet?userid=${user.id}">Update</a>&nbsp;&nbsp;<a href="${pageContext.request.contextPath}/UserDeleteServlet?userid=${user.id}"
 				onclick="return confirm('Wirklich?')">Remove</a></td> 
 			</tr>
 		</c:forEach>
