@@ -76,4 +76,15 @@ public class UserDaoImpl implements UserDao{
 		}
 	}
 
+	@Override
+	public User login(String username, String password) {
+		User user=null;
+		try {
+			user=qr.query("select * from tb_user where username=? and password=?", new BeanHandler<User>(User.class),username,password);
+		} catch (SQLException e) {
+			throw new RuntimeException("UserDaoImpl: login failed");
+		}
+		return user;
+	}
+
 }

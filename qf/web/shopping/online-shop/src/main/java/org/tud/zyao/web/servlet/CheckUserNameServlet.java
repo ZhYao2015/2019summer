@@ -35,6 +35,7 @@ public class CheckUserNameServlet extends HttpServlet {
 		UserService userService=new UserServiceImpl();
 		boolean b=userService.checkUserName(username);
 		response.setContentType("text/plain;charset=utf-8");
+
 		PrintWriter out=response.getWriter();
 		if(b) {
 			out.write("1");

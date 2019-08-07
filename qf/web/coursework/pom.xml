@@ -11,6 +11,7 @@
     <module>MyServlet</module>
     <module>mvc</module>
     <module>transactions</module>
+    <module>pages</module>
   </modules>
   
   <dependencyManagement>
@@ -63,6 +64,12 @@
 		    <groupId>commons-beanutils</groupId>
 		    <artifactId>commons-beanutils</artifactId>
 		    <version>1.9.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+		<dependency>
+		    <groupId>com.alibaba</groupId>
+		    <artifactId>fastjson</artifactId>
+		    <version>1.2.47</version>
 		</dependency>
   	</dependencies>	
   </dependencyManagement>

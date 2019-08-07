@@ -13,6 +13,20 @@
 	
 	<script type="text/javascript">
 		/*  */
+		$(function(){
+			$("#username").change(function(){
+				//ajax异步验证 checkUsername?username=xxx
+				$.get("checkUserName","username="+this.value,function(date){
+					if(data==1){
+						$("#usernameMsg").html("username already exists").css("color","red");
+						$("#registerBtn").attr("disabled",true);
+					}else{
+						$("#usernameMsg").html("username available").css("color","green");
+						$("registerBtn").removeAttr("disabled");
+					}
+				})
+			});
+		})
 	</script>
 <title>Register</title>
 </head>

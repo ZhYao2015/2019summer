@@ -16,4 +16,6 @@ public interface UserDao {
 	void activateUser(String email, String code);
 	
 	User checkUserName(String username);
+	
+	User login(String username,String password);
 }
